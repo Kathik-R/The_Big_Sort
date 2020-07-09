@@ -1,0 +1,5 @@
+from nsepy import get_history
+from datetime import date
+
+#Get Stock Data from Start to End Date
+data = get_history(symbol="BAJAJHLDNG", start=date(2015,1,1), end=date(2020,6,5)
